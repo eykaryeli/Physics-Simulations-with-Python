@@ -24,3 +24,8 @@ A collection of basic classical mechanics simulations written in Python using Nu
 * **Python 3.x**
 * **NumPy:** Vectorized array operations and mathematical modeling.
 * **Matplotlib:** Multi-panel visualization (`subplot`), layout adjustment, and custom plotting.
+
+ ### 4. Free Fall with Drag & Sensor Noise (`04_Free_Fall_and_Sensor_Noise`)
+- Solves non-linear ordinary differential equations (ODE) using `scipy.integrate.solve_ivp`.
+- Incorporates quadratic air resistance ($dv/dt = -g + (k/m)v^2$).
+- Generates synthetic Gaussian sensor noise using `numpy.random.normal` to simulate real-world measurements.
